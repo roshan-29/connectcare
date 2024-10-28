@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            PETSHOP
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+margin: 0;
+background-size: cover;
+background-image:url('puppy.jpg');
+font-family: Arial, Helvetica, sans-serif;
+  
+}
+.topnav {
+  overflow: hidden;
+  background-color:rgba(73, 25, 21, 0);
+  height: 70px;
+  border: 4px solid rgb(255, 255, 255);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.topnav-right {
+  float: right;
+}
+.button {
+    background-color:transparent; 
+    border: none;
+    color: rgb(255, 255, 255);
+    height: 20%;
+    width: 100%;
+    padding: 40px 70px;
+    text-align: center;
+    display:list-item;
+    font-size: 40px;
+    font-style:italic;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border: 3px solid #ffffff;
+}
+.button:hover{
+    background-color: darkgray;
+    color: black;
+    border-color: black;
+}
+.drop{
+    float: left;
+ 
+ border:4px solid white;
+}
+.quote{
+    margin: 0;
+    float:right;
+    border:10px solid white;
+    height: 550px;
+    width: 800px;
+    margin: 80px;
+    border-radius: 50px;
+    text-align:center;
+    font-size:36px;
+    color: #ffffff;
+}
+</style>
+    </head>
+    <body>
+
+        <div class="topnav">
+            <a class="active" href="home.html"><img src="ic_add_pet.png"></a>
+            <a href="home.html">PETSHOP</a>
+            <div class="topnav-right">
+              <a href="logout.php">logout</a>
+            </div>
+          </div>
+        <div class="quote" style="background-size: cover;background-image: url('pet_shop (2).png');">
+                <form >
+                    <p style="color: rgb(194, 193, 193);font-family: Georgia, 'Times New Roman', Times, serif;">A Pet lover's Paradise
+                    
+                    </p>
+                </form>
+        </div>
+     <div class="screen" >      
+     <form>
+          <div class="drop">
+            <form>
+            <button class="button button1"  type="submit" formaction="animals.php">animals</button>
+            <button class="button button2"  type="submit" formaction="birds.php">Birds</button>
+            <button class="button button3"  type="submit" formaction="petproducts.php">products</button>
+            <button class="button button4"  type="submit" formaction="sales.php">salesdetails</button>
+            <button class="button button5"  type="submit" formaction="customer.php">customer</button>  
+        </form>
+        </div>
+     </form> 
+    </div>
+
+    </body>
+   
+</html>
